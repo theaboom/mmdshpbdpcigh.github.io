@@ -1,0 +1,1282 @@
+#zero {
+    background: url(bg1.png);
+    background-repeat: repeat;
+}
+
+#one {
+    background: linear-gradient(#0077ff, #00c3ff, #a8dee0, #FFEC59, #fdd194)
+}
+
+#two {
+    background: url(bg1.png);
+    background-repeat: repeat;
+}
+
+#three {
+    background: url(bg1.png);
+    background-repeat: repeat;
+}
+
+#four {
+    background: url(bg1.png);
+    background-repeat: repeat;
+}
+
+#five {
+    background: linear-gradient(#000099, black, black)
+}
+
+#six {
+    background: url(bg1.png);
+    background-repeat: repeat;
+}
+
+#seven {
+    background: linear-gradient(#00A5E3, #000099)
+}
+
+#travelgift {
+    background: url(bg1.png);
+    background-repeat: repeat;
+}
+
+#rosesgift {
+    background: url(bg1.png);
+    background-repeat: repeat;
+}
+
+#booksgift {
+    background: url(bg1.png);
+    background-repeat: repeat;
+}
+
+#letters {
+    background: url(bg1.png);
+    background-repeat: repeat;
+}
+
+#openfirst {
+    background: url(bg1.png);
+    background-repeat: repeat;
+}
+
+#openlast {
+    background: url(bg1.png);
+    background-repeat: repeat;
+}
+
+audio {
+    position: absolute;
+    z-index: 1000;
+    opacity: 0.5;
+    height: 10%;
+}
+
+.mine {
+    display: block;
+    margin: auto;
+    text-align: center;
+    z-index: 1000;
+    opacity: 1;
+    height: 10%;
+}
+
+h1 {
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Londrina Solid', cursive;
+    font-style: normal;
+    font-size: 130px;
+}
+
+p {
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Bubblegum Sans', cursive;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.instructions {
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Bubblegum Sans', cursive;
+    font-style: normal;
+    font-size: 45px;
+}
+
+.italics {
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Bubblegum Sans', cursive;
+    font-style: italic;
+    font-size: 50px;
+}
+
+.glow {
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Bubblegum Sans', cursive;
+    font-style: normal;
+    font-size: 50px;
+    color: #fee100;
+}
+
+section {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+h3 {
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Londrina Solid', cursive;
+    font-style: normal;
+    font-size: 80px;
+}
+
+.buttoncenter {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15%;
+}
+
+#star {
+    background-color: plum;;
+    border: none;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+    animation-iteration-count: infinite;
+    animation-name: star;
+    animation-duration: 2s;
+}
+
+@keyframes star {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.2;
+    }
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.streamer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}
+
+#stringlights {
+    position: absolute;
+    top: 0px;
+    right: 8px;
+    z-index: 0;
+}
+
+.lights {
+    background-color: #FFFFB5;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    animation-iteration-count: infinite;
+}
+
+.light-1 {
+    margin-top: 25%;
+    margin-left: 15%;
+    animation-name: light-1;
+    animation-duration: 4s;
+    top: 30px;
+    right: 92%;
+    z-index: 1;
+}
+
+.light-2 {
+    margin-top: 25%;
+    margin-left: 25%;
+    animation-name: light-2;
+    animation-duration: 3s;
+    top: 25px;
+    right: 75%;
+    z-index: 1;
+}
+
+.light-3 {
+    margin-top: 15%;
+    margin-left: 60%;
+    animation-name: light-3;
+    animation-duration: 4s;
+    top: 85px;
+    right: 57%;
+    z-index: 1;
+}
+
+.light-4 {
+    margin-top: 15%;
+    margin-left: 60%;
+    animation-name: light-4;
+    animation-duration: 2.9s;
+    top: -25px;
+    right: 42%;
+    z-index: 1;
+}
+
+.light-5 {
+    margin-top: 15%;
+    margin-left: 60%;
+    animation-name: light-5;
+    animation-duration: 4s;
+    top: -42px;
+    right: 30%;
+    z-index: 1;
+}
+
+.light-6 {
+    margin-top: 15%;
+    margin-left: 60%;
+    animation-name: light-6;
+    animation-duration: 3s;
+    top: 35px;
+    right: 18%;
+    z-index: 1;
+}
+
+.light-7 {
+    margin-top: 15%;
+    margin-left: 60%;
+    animation-name: light-7;
+    animation-duration: 3.9s;
+    top: 75px;
+    right: 4%;
+    z-index: 1;
+}
+
+@keyframes light-1 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.7;
+    }
+}
+
+@keyframes light-2 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.7;
+    }
+}
+
+@keyframes light-3 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.7;
+    }
+}
+
+@keyframes light-4 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.7;
+    }
+}
+
+@keyframes light-5 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.7;
+    }
+}
+
+@keyframes light-6 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.7;
+    }
+}
+
+@keyframes light-7 {
+    20% {
+      transform: scale(0.5);
+      opacity: 0.7;
+    }
+}
+
+#banner {
+    position: relative;
+    top: 0px;
+    right: 8px;
+    z-index: 2;
+}
+
+#window {
+    animation-name: fade;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+#blueballoon {
+    width: 30%;
+    height: auto;
+    position: relative;
+    left: 70%;
+    animation-name: float-1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes float-1 {
+    0% {
+        top: 0px;
+    }
+    50% {
+        top: 249px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+#yellowballoon {
+    width: 30%;
+    height: auto;
+    position: relative;
+    animation-name: float-2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes float-2 {
+    0% {
+        top: 0px;
+        right: 10%;
+    }
+    50% {
+        top: 200px;
+        right: 40%;
+    }
+    100% {
+        top: 0px;
+        right: 10%;
+    }
+}
+
+#purpleballoon {
+    width: 30%;
+    height: auto;
+    position: relative;
+    left: 25%;
+    bottom: 50%;
+    animation-name: float-3;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes float-3 {
+    0% {
+        top: 0px;
+        left: 25%;
+    }
+    50% {
+        top: 200px;
+        left: 60%;
+    }
+    100% {
+        top: 0px;
+        left: 25%;
+    }
+}
+
+h2 {
+    color: #333;
+    font-family: 'Bubblegum Sans', cursive;
+    text-align: center;
+    font-size: 80px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popuppartyhat {
+    margin: 70px auto;
+    padding: 14px 40px;
+    background: #fff;
+    border-radius: 5px;
+    width: 50%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.popuppartyhat .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.popuppartyhat .partyhatcontent {
+    max-height: 30%;
+    overflow: auto;
+}
+
+.popuppartyhat h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+.partyhatcontent {
+    color: #333;
+    font-family: 'Bubblegum Sans', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
+.popupcake {
+    margin: 70px auto;
+    padding: 14px 40px;
+    background: #fff;
+    border-radius: 5px;
+    width: 60%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.popupcake .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.popupcake .cakecontent {
+    max-height: 30%;
+    overflow: auto;
+}
+
+.popupcake h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+.cakecontent {
+    color: #333;
+    font-family: 'Bubblegum Sans', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
+.popupcandles {
+    margin: 70px auto;
+    padding: 14px 40px;
+    background: #fff;
+    border-radius: 5px;
+    width: 60%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.popupcandles .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.popupcandles .candlescontent {
+    max-height: 30%;
+    overflow: auto;
+}
+
+.popupcandles h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+.candlescontent {
+    color: #333;
+    font-family: 'Bubblegum Sans', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
+.gift {
+    display: block;
+    width: 50%;
+}
+
+#tickets {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+#sixteenroses {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+#books {
+    display: block;
+    width: 85%;
+}
+
+#travel {
+    display: block;
+    z-index: 1;
+    width: 29%;
+}
+
+#roses {
+    display: block;
+    z-index: 1;
+    width: 50%;
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    align-items: center;
+}
+
+#bookone {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#booktwo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#bookthree {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.tape {
+    display: block;
+    width: 70%;
+}
+
+#firstletter {
+    display: block;
+    width: 70%;
+}
+
+#lastletter {
+    display: block;
+    width: 70%;
+}
+
+.startoverbutton {
+    background-color: #FFED00;
+    border: none;
+    border-radius: 12px;
+    color: darkgoldenrod;
+    padding: 14px 40px;
+    text-align: center;
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 40px;
+    align-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+.lettersbutton {
+    background-color: #FFED00;
+    border: none;
+    border-radius: 12px;
+    color: darkgoldenrod;
+    padding: 14px 40px;
+    text-align: center;
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 40px;
+    align-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+/* Media query on screens that are 896 px or less */
+@media only screen and (max-width: 896px) {
+    audio {
+        position: absolute;
+        z-index: 1000;
+        opacity: 0.5;
+        width: 50%;
+    }
+    
+    .mine {
+        display: block;
+        margin: auto;
+        text-align: center;
+        z-index: 1000;
+        opacity: 1;
+        width: 70%;
+    }
+    
+    h1 {
+        text-align: center;
+        font-weight: normal;
+        font-family: 'Londrina Solid', cursive;
+        font-style: normal;
+        font-size: 15vw;
+    }
+
+    p {
+        text-align: center;
+        font-weight: normal;
+        font-family: 'Bubblegum Sans', cursive;
+        font-style: normal;
+        font-size: 6vw;
+    }
+
+    .instructions {
+        text-align: center;
+        font-weight: normal;
+        font-family: 'Bubblegum Sans', cursive;
+        font-style: normal;
+        font-size: 5vw;
+    }
+
+    .italics {
+        text-align: center;
+        font-weight: normal;
+        font-family: 'Bubblegum Sans', cursive;
+        font-style: italic;
+        font-size: 6vw;
+    }
+
+    .glow {
+        text-align: center;
+        font-weight: normal;
+        font-family: 'Bubblegum Sans', cursive;
+        font-style: normal;
+        font-size: 5vw;
+        color: #fee100;
+    }
+
+    section {
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    
+    h3 {
+        text-align: center;
+        font-weight: normal;
+        font-family: 'Londrina Solid', cursive;
+        font-style: normal;
+        font-size: 10vw;
+    }
+
+    .buttoncenter {
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 0vw;
+        margin-right: auto;
+        margin-bottom: 20%;
+    }
+
+    #star {
+        background-color: plum;
+        border: none;
+        height: 10vw;
+        width: 10vw;
+        border-radius: 50%;
+        position: absolute;
+        animation-iteration-count: infinite;
+        animation-name: star;
+        animation-duration: 4s;
+    }
+
+    @keyframes star {
+        20% {
+        transform: scale(0.5);
+        opacity: 0.2;
+        }
+    }
+
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+    }
+
+    .streamer {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: auto;
+    }
+
+    #stringlights {
+        position: absolute;
+        top: 0vw;
+        right: 0vw;
+        z-index: 0;
+    }
+
+    .lights {
+        background-color: #FFFFB5;
+        height: 5vw;
+        width: 5vw;
+        border-radius: 50%;
+        position: absolute;
+        animation-iteration-count: infinite;
+    }
+
+    .light-1 {
+        margin-top: 25%;
+        margin-left: 15%;
+        animation-name: light-1;
+        animation-duration: 4s;
+        top: 1.5vw;
+        right: 91%;
+        z-index: 1;
+    }
+
+    .light-2 {
+        margin-top: 25%;
+        margin-left: 25%;
+        animation-name: light-2;
+        animation-duration: 3s;
+        top: 0.5vw;
+        right: 74%;
+        z-index: 1;
+    }
+
+    .light-3 {
+        margin-top: 15%;
+        margin-left: 60%;
+        animation-name: light-3;
+        animation-duration: 4s;
+        top: 2vw;
+        right: 55%;
+        z-index: 1;
+    }
+
+    .light-4 {
+        margin-top: 15%;
+        margin-left: 60%;
+        animation-name: light-4;
+        animation-duration: 2.9s;
+        top: -2vw;
+        right: 41%;
+        z-index: 1;
+    }
+
+    .light-5 {
+        margin-top: 15%;
+        margin-left: 60%;
+        animation-name: light-5;
+        animation-duration: 4s;
+        top: -4.5vw;
+        right: 29%;
+        z-index: 1;
+    }
+
+    .light-6 {
+        margin-top: 15%;
+        margin-left: 60%;
+        animation-name: light-6;
+        animation-duration: 3s;
+        top: -1vw;
+        right: 17%;
+        z-index: 1;
+    }
+
+    .light-7 {
+        margin-top: 15%;
+        margin-left: 60%;
+        animation-name: light-7;
+        animation-duration: 3.9s;
+        top: 2vw;
+        right: 3%;
+        z-index: 1;
+    }
+
+    @keyframes light-1 {
+        20% {
+        transform: scale(0.5);
+        opacity: 0.7;
+        }
+    }
+
+    @keyframes light-2 {
+        20% {
+        transform: scale(0.5);
+        opacity: 0.7;
+        }
+    }
+
+    @keyframes light-3 {
+        20% {
+        transform: scale(0.5);
+        opacity: 0.7;
+        }
+    }
+
+    @keyframes light-4 {
+        20% {
+        transform: scale(0.5);
+        opacity: 0.7;
+        }
+    }
+
+    @keyframes light-5 {
+        20% {
+        transform: scale(0.5);
+        opacity: 0.7;
+        }
+    }
+
+    @keyframes light-6 {
+        20% {
+        transform: scale(0.5);
+        opacity: 0.7;
+        }
+    }
+
+    @keyframes light-7 {
+        20% {
+        transform: scale(0.5);
+        opacity: 0.7;
+        }
+    }
+
+    #banner {
+        position: relative;
+        top: 0vw;
+        right: 0vw;
+        z-index: 2;
+        width: 100%;
+    }
+
+    #window {
+        animation-name: fade;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes fade {
+        0% {
+            opacity: 0;
+            transform: scale(0.5);
+        }
+        100% {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+
+    #blueballoon {
+        width: 40%;
+        height: auto;
+        position: relative;
+        left: 70%;
+        animation-name: float-1;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes float-1 {
+        0% {
+            top: -20px;
+        }
+        50% {
+            top: 249px;
+        }
+        100% {
+            top: 0px;
+        }
+    }
+
+    #yellowballoon {
+        width: 40%;
+        height: auto;
+        position: relative;
+        animation-name: float-2;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes float-2 {
+        0% {
+            top: 0px;
+            right: 10%;
+        }
+        50% {
+            top: 200px;
+            right: 40%;
+        }
+        100% {
+            top: 0px;
+            right: 10%;
+        }
+    }
+
+    #purpleballoon {
+        width: 40%;
+        height: auto;
+        position: relative;
+        left: 30%;
+        bottom: 50%;
+        animation-name: float-3;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes float-3 {
+        0% {
+            top: 0px;
+            left: 25%;
+        }
+        50% {
+            top: 200px;
+            left: 60%;
+        }
+        100% {
+            top: 0px;
+            left: 25%;
+        }
+    }
+
+    .partyhat {
+        width: 40%;
+        height: auto;
+    }
+
+    .cake {
+        width: 80%;
+        height: auto;
+    }
+
+    .candles {
+        width: 80%;
+        height: auto;
+    }
+
+    h2 {
+        color: #333;
+        font-family: 'Bubblegum Sans', cursive;
+        text-align: center;
+        font-size: 7vw;
+    }
+
+    .overlay {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.7);
+        transition: opacity 500ms;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .overlay:target {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .popuppartyhat {
+        margin: 70px auto;
+        padding: 2vh 3vw;
+        background: #fff;
+        border-radius: 5px;
+        width: 60%;
+        position: relative;
+        transition: all 5s ease-in-out;
+    }
+
+    .popuppartyhat .close {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        transition: all 200ms;
+        font-size: 5vw;
+        font-weight: bold;
+        text-decoration: none;
+        color: #333;
+    }
+
+    .popuppartyhat .partyhatcontent {
+        max-height: 30%;
+        overflow: auto;
+    }
+
+    .popuppartyhat h2 {
+        margin-top: 0;
+        color: #333;
+        font-family: 'Bubblegum Sans', cursive;
+    }
+
+    .partyhatcontent {
+        color: #333;
+        font-family: 'Bubblegum Sans', cursive;
+        text-align: center;
+        font-size: 5vw;
+    }
+
+    .popupcake {
+        margin: 70px auto;
+        padding: 20px;
+        background: #fff;
+        border-radius: 5px;
+        width: 60%;
+        position: relative;
+        transition: all 5s ease-in-out;
+    }
+
+    .popupcake .close {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        transition: all 200ms;
+        font-size: 5vw;
+        font-weight: bold;
+        text-decoration: none;
+        color: #333;
+    }
+
+    .popupcake .cakecontent {
+        max-height: 30%;
+        overflow: auto;
+    }
+
+    .popupcake h2 {
+        margin-top: 0;
+        color: #333;
+        font-family: 'Bubblegum Sans', cursive;
+    }
+
+    .cakecontent {
+        color: #333;
+        font-family: 'Bubblegum Sans', cursive;
+        text-align: center;
+        font-size: 5vw;
+    }
+
+    .popupcandles {
+        margin: 70px auto;
+        padding: 14px 40px;
+        background: #fff;
+        border-radius: 5px;
+        width: 60%;
+        position: relative;
+        transition: all 5s ease-in-out;
+    }
+
+    .popupcandles .close {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        transition: all 200ms;
+        font-size: 5vw;
+        font-weight: bold;
+        text-decoration: none;
+        color: #333;
+    }
+
+    .popupcandles .candlescontent {
+        max-height: 30%;
+        overflow: auto;
+    }
+
+    .popupcandles h2 {
+        margin-top: 0;
+        color: #333;
+        font-family: 'Bubblegum Sans', cursive;
+    }
+
+    .candlescontent {
+        color: #333;
+        font-family: 'Bubblegum Sans', cursive;
+        text-align: center;
+        font-size: 5vw;
+    }
+
+    .gift {
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #tickets {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        height: auto;
+    }
+
+    #sixteenroses {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        height: auto;
+    }
+
+    #books {
+        display: block;
+        width: 85%;
+    }
+
+    #travel {
+        display: block;
+        z-index: 1;
+        width: 29%;
+    }
+
+    #roses {
+        display: block;
+        z-index: -1;
+        height: 50%;
+    }
+
+    .book {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        align-items: center;
+    }
+
+    #bookone {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    
+    #booktwo {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    
+    #bookthree {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .tape {
+        display: block;
+        max-width: 70%;
+        height: auto;
+    }
+
+    #firstletter {
+        display: block;
+        max-width: 70%;
+        height: auto;
+    }
+    
+    #lastletter {
+        display: block;
+        max-width: 70%;
+        height: auto;
+    }
+
+    .startoverbutton {
+        background-color: #FFED00;
+        border: none;
+        border-radius: 12px;
+        color: darkgoldenrod;
+        padding: 15px 32px;
+        text-align: center;
+        font-family: 'Bubblegum Sans', cursive;
+        font-size: 12vw;
+        align-self: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+    }
+    
+    .lettersbutton {
+        background-color: #FFED00;
+        border: none;
+        border-radius: 12px;
+        color: darkgoldenrod;
+        padding: 15px 32px;
+        text-align: center;
+        font-family: 'Bubblegum Sans', cursive;
+        font-size: 12vw;
+        align-self: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5%;
+    }
+}    
